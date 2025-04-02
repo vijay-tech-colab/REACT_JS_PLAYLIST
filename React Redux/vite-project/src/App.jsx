@@ -9,7 +9,7 @@ const App = () => {
     dispatch({ type : "increment"});
   }
   function decHandler () {
-    dispatch({ type : "decrement"});
+    dispatch({ type : "decrement" , payload : 'hhh'});
   }
   function IncrementBy10 () {
     dispatch({ type : "increase", num : 10});
